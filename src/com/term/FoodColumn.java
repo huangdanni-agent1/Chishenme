@@ -11,7 +11,7 @@ public class FoodColumn implements BaseColumns {
 
 	public static final String NAME = "name";//	名称
 	public static final String LOCATION = "location";//	位置
-	public static final String PRICE = "foodprice";//	价格
+	public static final String PRICE = "price";//	价格
 	public static final String ASSESSMENT = "assessment";//	评价
 	public static final String RECOMMENDATION = "recommendation";//	推荐搭配
 	public static final String BUSINESSHOURS = "businesshours";//	营业时间
@@ -30,5 +30,10 @@ public class FoodColumn implements BaseColumns {
 			_ID,// 0
 			NAME,// 1
 			LOCATION,// 2
+			PRICE,//3
+			ASSESSMENT,//4
+			RECOMMENDATION,//5
+			BUSINESSHOURS,
+			REMARKS
 	};
 }
